@@ -1,5 +1,7 @@
 5. Summarize what the keyword 'this' is used for? 
+    this is a pointer to a place in memory that is stored in a location. 
 
+    - 
 
 6. What is a callback? What are common uses for callbacks in JavaScript?
     
@@ -12,7 +14,59 @@
     https://repl.it/@jonbaxt/jb-Closure-Example
 
 8. How does a prototype work?
+    MDN Links:
+    https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype
 
-    Repl example of prototype
+
+
+    Repl example of prototype:
+    https://repl.it/@jonbaxt/jb-JS-Prototype-Example
 
     - A mechanism by which JavaScript objects inherit features from one another.
+
+    - JavaScript itself is a prototype based language.
+        --> All items in JavaScript are objects.
+            ---> All items in C# are classes as another example of that.
+        --> Since all items in JavaScript are objects, then prototypes are used to give functionality and methods to these objects. 
+        --> You can then use this prototype method to add new methods to an existing object and since everything is objects, you can then do this for any part of JavaScript. 
+
+
+
+Additional: 
+    Context:
+
+
+    Hoisting:
+
+
+    Difference between for loop and for in loop:
+
+
+    let vs var:
+
+
+    Square bracket notation [], when to use it:
+
+
+    es2015 features that differ from ES5 can I describe at least 3: 
+
+
+    How scope works in JavaScript:
+
+
+    Statement 'use strict' and what it does:
+
+
+    How to handle errors in JavaScript:
+
+
+    Inheritance and how it works in JavaScript:
+
+
+    Difference between == and === in JavaScript:
+
+
+    Event bubbling in the DOM:
+
+

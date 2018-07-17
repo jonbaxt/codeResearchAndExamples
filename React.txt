@@ -5,3 +5,43 @@
 
     
 11. What is REST? (not just a description of the acronym)
+
+
+
+Additional:
+
+
+    What is a component:
+
+
+    Difference between element and a component:
+
+
+    setState and what it does:
+
+
+    Difference between a class component and a functional component:
+
+
+    refs in React:
+
+
+    keys in react and why you use them with lists:
+
+
+    React Lifecycle events:
+
+
+    Where you should make AJAX requests:
+
+
+    How React is different from vanilla JS, jQuery and Angular:
+
+
+    Unidirectional data flow in React:
+
+
+    Description of PropTypes:
+
+
+    

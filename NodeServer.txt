@@ -1,7 +1,12 @@
 11. What is REST? (not just a description of the acronym)
 
+    Representational State Transfer Protocol.
 
 12. Name three common ways of getting data from a request (in Express.JS):
+
+    req.body, req.params, req.session
+    res.status(200).send();
+    next();
 
 
 -- =====================
@@ -16,10 +21,19 @@ email varchar(255)
 
 
 -Get all users
+    SELECT * FROM users;
 
 -Create a new user with the name of 'your name' and an email of 'fake@fake.com':
+    INSERT INTO 
+    (name, email)
+    VALUES
+    ('Jon Baxter', 'fake@fake.com');
 
 -Update the newly created user's name to 'Bobby Boy':
+    UPDATE TABLE users 
+    SET name='Bobby Boy' 
+    WHERE email='fake@fake.com';
 
 -Delete the newly updated user:
-    
+    DELETE FROM users 
+    WHERE email='fake@fake.com';

@@ -1,4 +1,4 @@
-2. What is the box model?
+2. What is the box model? Describe the box Model?
 
     Visual Codepen Example of the box Model:
     https://codepen.io/jonbaxt/pen/oMXvNx
@@ -7,5 +7,39 @@
     
     Classes and Ids, priority, and id unique, classes used in multiple
 
+    Visual Codepen Example of Ids and Classes: 
+    https://codepen.io/jonbaxt/pen/WKwzoy
 
 4. What is z-index (CSS property) useful for?
+
+    z-index manipulates the order of items on a screen.
+
+
+Additional CSS
+--------------
+CSS Selector
+
+
+Box-Shadow
+
+
+Position (the properties of position):
+
+
+CSS Selector Continued:
+( < )
+( , )
+(   )
+
+CSS Shapes - Basics to making a circle:
+
+
+Pseudo Selectors:
+
+
+CSS Shapes - Making a star in CSS shapes only:
+
+
+Transform Property:
+
+
