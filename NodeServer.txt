@@ -1,0 +1,25 @@
+11. What is REST? (not just a description of the acronym)
+
+
+12. Name three common ways of getting data from a request (in Express.JS):
+
+
+-- =====================
+create table users (
+id serial,
+name varchar(255),
+email varchar(255)
+)
+-- =====================
+
+13. Given the Schema above, write the following four basic CRUD db queries using postgres syntax
+
+
+-Get all users
+
+-Create a new user with the name of 'your name' and an email of 'fake@fake.com':
+
+-Update the newly created user's name to 'Bobby Boy':
+
+-Delete the newly updated user:
+    

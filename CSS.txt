@@ -1,0 +1,11 @@
+2. What is the box model?
+
+    Visual Codepen Example of the box Model:
+    https://codepen.io/jonbaxt/pen/oMXvNx
+
+3. What is the difference between IDs and Classes?
+    
+    Classes and Ids, priority, and id unique, classes used in multiple
+
+
+4. What is z-index (CSS property) useful for?

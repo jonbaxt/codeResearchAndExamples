@@ -1,0 +1,7 @@
+9. What is a component-based framework/library?
+
+
+10. What is the component lifecycle in React?
+
+    
+11. What is REST? (not just a description of the acronym)

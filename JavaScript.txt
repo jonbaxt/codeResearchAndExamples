@@ -1,0 +1,18 @@
+5. Summarize what the keyword 'this' is used for? 
+
+
+6. What is a callback? What are common uses for callbacks in JavaScript?
+    
+    Repl example of callbacks:
+    https://repl.it/@jonbaxt/jb-Callback-Function-Example
+
+7. What is a closure and why is it useful?
+    
+    Repl example of a closure: 
+    https://repl.it/@jonbaxt/jb-Closure-Example
+
+8. How does a prototype work?
+
+    Repl example of prototype
+
+    - A mechanism by which JavaScript objects inherit features from one another.

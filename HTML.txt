@@ -1,0 +1,5 @@
+1. What does semantic HTML mean?
+    
+    Visual codepen example:
+    Could also be used to go over borders
+    https://codepen.io/jonbaxt/pen/xJGyPw
