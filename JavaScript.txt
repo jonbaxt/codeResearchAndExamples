@@ -1,17 +1,105 @@
 5. Summarize what the keyword 'this' is used for? 
+    MDN Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
+
+    My repl examples of different ways to use this:
+    https://repl.it/@jonbaxt/js-this-examples
+
+
+    ---------------------------
+    Notes from MDN on the topic
+    ---------------------------
+    - this unlike other languages means something different in JavaScript. It also differs in behavior when strict mode is invoked.
+
+    - What determines the value of this is by how a function is called.
+        --> Cannot be set by assignment, during execution and may be different each time the function is called.
+
+        --> ES5 Incudes the bind() method to set the value of a function's this regardless to how it is called.
+
+        --> ES2015 introduced arrow functions which don't provide their own binding.
+            ---> It actually retains the this value of the enclosing lexical context.
+    
+    --------------------------
+    Different Contexts of this
+    --------------------------
+    
+    GLOBAL CONTEXT:
+    ===============
+    In the global execution context (outside of any function), this refers to the global object whether in strict mode or not.
+
+    MDN Code Example:
+    // In web browsers, the window object is also the global object:
+    console.log(this === window); // true
+
+    a = 37;
+    console.log(window.a); // 37
+
+    this.b = "MDN";
+    console.log(window.b)  // "MDN"
+    console.log(b)         // "MDN"
+
+    FUNCTION CONTEXT:
+    =================
+    In a function. The value of this depends on how the function is called.
+
+    MDN Example:
+    function f1() {
+        return this;
+    }
+
+    // In a browser:
+    f1() === window; // true 
+
+    // In Node:
+    f1() === global; // true
+
+
+
+
+    ---------
+    My Answer
+    ---------
     this is a pointer to a place in memory that is stored in a location. 
 
     - 
+
+
+
+
+
+
+
+
+
+
 
 6. What is a callback? What are common uses for callbacks in JavaScript?
     
     Repl example of callbacks:
     https://repl.it/@jonbaxt/jb-Callback-Function-Example
 
+
+    A callback is a function passed into another function that can then be called back inside of the outer function. 
+
+
+
+
+
+
+
+
 7. What is a closure and why is it useful?
     
     Repl example of a closure: 
     https://repl.it/@jonbaxt/jb-Closure-Example
+
+
+
+
+
+
+
+
+
 
 8. How does a prototype work?
     MDN Links:
@@ -30,6 +118,16 @@
             ---> All items in C# are classes as another example of that.
         --> Since all items in JavaScript are objects, then prototypes are used to give functionality and methods to these objects. 
         --> You can then use this prototype method to add new methods to an existing object and since everything is objects, you can then do this for any part of JavaScript. 
+
+
+
+
+
+
+
+
+
+
 
 
 
