@@ -80,7 +80,26 @@
 
     A callback is a function passed into another function that can then be called back inside of the outer function. 
 
+    ----------------------------------------------------
+    Basic example:
+    ----------------------------------------------------
+    function myName(yourName) {
+        let name = yourName;
+        return name;
+    }
 
+    function greet(cbFunc) {
+        let greeting = 'Hello and welcome to you ';
+        return greeting + cbFunc;
+    }
+
+    var store = myName('Jon');
+    var full = greet(store)
+    ----------------------------------------------------
+
+    The above is synchronous function where the callback is returned at the same time of the outer function.
+
+    There is also asynchronous. Asynchronous happens when you need a function to run after the outer function has ran. setTimeout() is a good example of how this can work.
 
 
 
@@ -92,9 +111,9 @@
     Repl example of a closure: 
     https://repl.it/@jonbaxt/jb-Closure-Example
 
+    A closure works using lexical scope and returns a function. The function returned acts as a snapshot of what the code inside the function has done in some cases.
 
-
-
+    Lexical scope means that the parent can't see the information of a child, but the child can have access to information at their level of scope as well as parent all the way to the global scope.
 
 
 
