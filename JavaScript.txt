@@ -160,8 +160,12 @@ Additional:
     Difference between for loop and for in loop:
 
 
+    ============================================1
     let vs var:
-
+    ============================================
+    My own code example and explanation on repl: 
+    https://repl.it/@jonbaxt/Let-vs-Var-code-example
+    
 
     Square bracket notation [], when to use it:
 
