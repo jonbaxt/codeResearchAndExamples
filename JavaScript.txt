@@ -160,11 +160,14 @@ Additional:
     ============================================
     Hoisting:
     ============================================
-
+    Hoisting happens in JavaScript where you may declare a variable somewhere throughout the code, but since it is hoisted up top while code is executed to the top of the local scope, it helps with error handling. I believe.
 
     ============================================
     Difference between for loop and for in loop:
     ============================================
+    For loop you can pick what parameters you want the loop to loop through an array. You don't have to start and go to the end.
+
+    For in is cleaner to read and can access the key object of an object to loop through an object as well. For In will go through entire array.
 
 
     ============================================
@@ -207,7 +210,13 @@ Additional:
     ============================================
     Difference between == and === in JavaScript:
     ============================================
+    === is strict comparison.
+        This means that this is the absolute result of comparison you are looking for.
+            Since it is strict, if you compare 1 === '1' would be false, since it is comparing a string to a number.
+        Strict is more enforced and more of the standard in recent versions of JavaScript. It used to me == for years till recently.
 
+    == is abstract comparison.
+        It is a comparison operator. If you are looking for something similar like: 1 == '1', then this would be true since it identifies the string as one.
 
     ============================================
     Event bubbling in the DOM:
