@@ -14,38 +14,62 @@
 
 Additional:
 
-
+======================================================================
     What is a component:
+======================================================================
 
 
+======================================================================
     Difference between element and a component:
+======================================================================
 
 
+======================================================================
     setState and what it does:
+======================================================================
+    setState is a method you can call on to access and change the data stored on state. This method exists to help immutability of data in a React app.
 
-
+======================================================================
     Difference between a class component and a functional component:
+======================================================================
+    A class component, can have a constructor which allows a state in the component as well as the render area in the return to allow rerendering inside the app. 
+    Functional component does not have a constructor or render. 
 
-
+======================================================================
     refs in React:
+======================================================================
 
 
+======================================================================
     keys in react and why you use them with lists:
+======================================================================
+    Key is a reference you assign to the outer most tag in a list of HTML objects. The key is a unique reference that you can use to call back on the list when accessing the data. It also is helpful so you can avoid a lot of errors and warnings going while your site is running.
 
+    RESEARCH MORE
 
+======================================================================
     React Lifecycle events:
+======================================================================
+    React Lifecycle is: mounting, mounted, updating, and unmounting.
 
-
+======================================================================
     Where you should make AJAX requests:
+======================================================================
 
 
+======================================================================
     How React is different from vanilla JS, jQuery and Angular:
+======================================================================
 
 
+======================================================================
     Unidirectional data flow in React:
+======================================================================
 
 
+======================================================================
     Description of PropTypes:
+======================================================================
 
 
     

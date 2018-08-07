@@ -17,28 +17,39 @@
 
 Additional CSS
 --------------
+
+=============================================================================
 CSS Selector
+=============================================================================
 
 CSS selector is a rule-set of how to select elements on a css stylesheet.
 
+=============================================================================
 Box-Shadow
+=============================================================================
 
     Creating a box shadow paper card effect in CSS, you use, the box-shadow element and use it like this: box-shadow: 1px 1px 2px gray;
 
     This will give a paper card effect to the box and this is more common to modern web design than using a a border.
 
+=============================================================================
 Position (the properties of position):
+=============================================================================
 
     Handles how a html tag content is positioned on the screen.
         The attributes you can apply are relative, inherit, absolute, fixed, and sticky.
 
 
+=============================================================================
 CSS Selector Continued:
+=============================================================================
 ( > )
 ( , )
 (   ) - Selects all tags that are inside the the div to apply attributes. Example: .OuterDiv ThirdDivIn {}, will apply styles to attributes inside ThirdDivIn. This is effective styling for 
 
+=============================================================================
 CSS Shapes - Basics to making a circle:
+=============================================================================
 
     Basic code for a circle: 
         <div class='circle' ></div>
@@ -50,13 +61,19 @@ CSS Shapes - Basics to making a circle:
             background-color: green;
         }
 
+=============================================================================
 Pseudo Selectors:
+=============================================================================
     Pseudo Selectors are CSS Selectors that can manipulate elements for style event handling. Most common are :hover, :focus, :before, :after.
 
+=============================================================================
 CSS Shapes - Making a star in CSS shapes only:
+=============================================================================
 
 
 
+=============================================================================
 Transform Property:
+=============================================================================
 
 
