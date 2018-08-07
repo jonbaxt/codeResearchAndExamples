@@ -1,8 +1,12 @@
 9. What is a component-based framework/library?
 
+    - Component-based framework is the idea that all parts of a website are seperated into sections.
 
 10. What is the component lifecycle in React?
 
+    - Component lifecycle is the cycle of a component throughout the lifetime of the website.
+        -> There are 4 different stages that have specific functions in the lifecycle.
+            --> 
     
 11. What is REST? (not just a description of the acronym)
 

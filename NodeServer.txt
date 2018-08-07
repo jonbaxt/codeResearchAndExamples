@@ -2,12 +2,17 @@
 
     Representational State Transfer Protocol.
 
+        - This is a pattern of how to setup URLs in making calls to a database. 
+            -> The pattern allows you to never.
+
 12. Name three common ways of getting data from a request (in Express.JS):
 
     req.body, req.params, req.session
     res.status(200).send();
     next();
 
+    req.body
+        - This allows you to make a 
 
 -- =====================
 create table users (
@@ -18,8 +23,6 @@ email varchar(255)
 -- =====================
 
 13. Given the Schema above, write the following four basic CRUD db queries using postgres syntax
-
-
 -Get all users
     SELECT * FROM users;
 
