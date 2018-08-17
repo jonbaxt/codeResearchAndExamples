@@ -18,11 +18,13 @@ Additional:
     What is a component:
 ======================================================================
 
+    A component is a part of a site that can have all it's functions, html, css, and code comprised in one part and can be used to reuse the code in that component again and again throughout a website or app.
 
 ======================================================================
     Difference between element and a component:
 ======================================================================
 
+    An element is 
 
 ======================================================================
     setState and what it does:
