@@ -12,19 +12,19 @@ Each Subject is divided into it's own folder. Since there are basic interview qu
 
 Folders:
 - Basic Questions
-    ---> CSS
-    ---> HTML
-    ---> JavaScript
-    ---> NodeServer
-    ---> React
+    -- CSS
+    -- HTML
+    -- JavaScript
+    -- NodeServer
+    -- React
 - GIT
 
 - JavaScript
-    --> JavaScript in Depth
+    -- JavaScript in Depth
     
-    --> Toy Problems
+    -- Toy Problems
     
-    --> YouDontKnowJS
+    -- YouDontKnowJS
 - Redux
 
 Each folder has it's own README for now.
