@@ -11,21 +11,21 @@ Since studying more, it has now expanded to even more in depth with a lot of gui
 Each Subject is divided into it's own folder. Since there are basic interview questions I've put them in it's own folder, anything JavaScript will be in the JavaScript folder etc.
 
 Folders:
---> Basic Questions
+- Basic Questions
     ---> CSS
     ---> HTML
     ---> JavaScript
     ---> NodeServer
     ---> React
---> GIT
+- GIT
 
---> JavaScript
+- JavaScript
     --> JavaScript in Depth
     
     --> Toy Problems
     
     --> YouDontKnowJS
---> Redux
+- Redux
 
 Each folder has it's own README for now.
 
