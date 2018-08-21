@@ -17,3 +17,6 @@ Inside memory of JavaScipt, there is a place to store the value of `number`.
 
 We do not go into a body of a function.
 
+``Execution Context``
+As soon as code is running, it creates a global execution context.
+- Yep. 
