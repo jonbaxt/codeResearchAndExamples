@@ -10,3 +10,5 @@ Source code in a program is set of special instructions to tell the computer wha
 
 Rules for valid format and combinations of instructions is called a computer language, sometimes referred to as it syntax. 
 
+### Statements
+
