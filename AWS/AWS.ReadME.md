@@ -1,5 +1,7 @@
 # AWS Seminar Web Applications with AWS as a platform
 
+This is my notes from the Front-End-Masters course for Rapid Development on AWS with Steve Kinney. https://www.frontendmasters.com
+
 Github Repo for this front end masters presentation: https://github.com/jonbaxt/AWS-for-Frontend-Engineers
 
 This is forked from the main repo which is here: https://github.com/stevekinney/AWS-for-Frontend-Engineers
@@ -28,6 +30,13 @@ Steve said that the ones he goes over are custom wrappers that wrap around other
 
 The ones that Steve covered are:
     - AWS Mobile Hub
+        - A dashboard for easily managing multiple AWS services.
+        - Provides a graphical abstraction over DynamoDB, Cognito, Pinpoint, and other services.
     - AWS Amplify
+        - A JavaScript Library with a bunch of helper functions for working with AWS Mobile Hub.
+        - It also includes aws-amplify-react, 
     - AWS AppSync
+        - GraphQL as a Service
+        - Can be built in DynamoDB, Elastic Search, or Lambda functions.
+        - Can be used with AWS Amplify and Mobile Hub, but it doesn't need to.
 
