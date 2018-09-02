@@ -32,6 +32,13 @@ The ones that Steve covered are:
     - AWS Mobile Hub
         - A dashboard for easily managing multiple AWS services.
         - Provides a graphical abstraction over DynamoDB, Cognito, Pinpoint, and other services.
+            - Stuff they can do:
+                - Authentication (Cognito)
+                - Storage (S3)
+                - Serverless Functions (Lambda && API Gateway)
+                - Database (DynamoDB)
+                - Hosting (S3 and Cloudfront)
+                - Analytics and Notifications (Pinpoint)
     - AWS Amplify
         - A JavaScript Library with a bunch of helper functions for working with AWS Mobile Hub.
         - It also includes aws-amplify-react, 
@@ -39,4 +46,8 @@ The ones that Steve covered are:
         - GraphQL as a Service
         - Can be built in DynamoDB, Elastic Search, or Lambda functions.
         - Can be used with AWS Amplify and Mobile Hub, but it doesn't need to.
+
+    - AWS Mobile CLI
+        - Gives you a command-line interface for quickly setting up, configuring, and deploying applications on AWS Mobile Hub.
+
 
